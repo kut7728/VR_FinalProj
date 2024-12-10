@@ -67,7 +67,7 @@ public class BowAttachAndTeleport : MonoBehaviour
 
         // 활의 위치와 회전을 고정
         bow.transform.localPosition = Vector3.zero;
-        bow.transform.localRotation = Quaternion.Euler(0, 180, 0); // 활을 180도 회전
+        //bow.transform.localRotation = Quaternion.Euler(0, 180, 0); // 활을 180도 회전
 
         // Rigidbody와 충돌 문제 해결
         Rigidbody rb = bow.GetComponent<Rigidbody>();
