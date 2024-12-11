@@ -75,3 +75,4 @@ crashlytics-build.properties
 .Assets/Samples
 .Assets/XR
 .Assets/XRI
+.DS_Store
