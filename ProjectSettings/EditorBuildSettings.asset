@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene2.unity
     guid: bea46168933d6414496257f321c7e8f4
+  - enabled: 1
+    path: Assets/Scenes/scenes 3.unity
+    guid: 56ed16495b7962e4bbc09b5338b292ef
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: acfafd85deb74b34fa900cda9575f9fc, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 3de0c368a65824ff69b65a4ede729bf5, type: 2}

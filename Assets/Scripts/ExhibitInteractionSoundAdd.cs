@@ -96,7 +96,11 @@ public class ExhibitInteractionSoundAdd : MonoBehaviour
 
     private void PlayExhibitAudio()
     {
-        if (currentAudioSource == null) return; // AudioSource가 없는 경우 무시
+        if (currentAudioSource == null) {
+            Debug.LogError("No soundSource");
+            return; // AudioSource가 없는 경우 무시
+            
+            }
 
         if (currentAudioSource.isPlaying)
         {
@@ -110,12 +114,12 @@ public class ExhibitInteractionSoundAdd : MonoBehaviour
         }
     }
 
-    // private void StopExhibitAudio()
-    // {
-    //     if (currentAudioSource != null && currentAudioSource.isPlaying)
-    //     {
-    //         currentAudioSource.Stop();
-    //         Debug.Log("Audio Stopped: " + currentExhibit.name);
-    //     }
-    // }
+    private void StopExhibitAudio()
+    {
+        if (currentAudioSource != null && currentAudioSource.isPlaying)
+        {
+            currentAudioSource.Stop();
+            Debug.Log("Audio Stopped: " + currentExhibit.name);
+        }
+    }
 }
