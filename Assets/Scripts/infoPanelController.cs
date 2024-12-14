@@ -18,10 +18,11 @@ public class infoPanelController : MonoBehaviour
         // 스토리를 배열에 작성
         storyParagraphs = new string[]
         {
-            "이곳은 잊혀진 왕국의 폐허입니다.",
-            "100년 전, 이 왕국은 엄청난 재앙을 맞이하면서 모든 것이 사라졌습니다.",
-            "당신의 임무는 이 왕국의 비밀을 밝혀내는 것입니다.",
-            "시작하세요. 이제 모험이 기다립니다!"
+            "이곳은 조선 중앙군 훈련도감의 훈련원일세.",
+            "자네 같은 신참들에게 보급과 조직구조, 전술, 궁술, 검술, 포술등",
+            "각종 군사훈련과 지식을 가르치는 중앙군 직속의 훈련소지!",
+            "먼저 보급과 함께 전술과 각종 신호체계를 공부하게나",
+            "모두 익혔다면 반대쪽 문을 통해 밖으로 이동해서 무술 교습소로 이동하게."
         };
 
         // 첫 번째 문장 표시
@@ -37,7 +38,7 @@ public class infoPanelController : MonoBehaviour
         storyText.text = storyParagraphs[currentIndex];
     }
 
-    void OnNextButtonClicked()
+    public void OnNextButtonClicked()
     {
         // 현재 인덱스 증가
         currentIndex++;
