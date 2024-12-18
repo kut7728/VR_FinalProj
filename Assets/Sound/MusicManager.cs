@@ -50,7 +50,14 @@ public class MusicManager : MonoBehaviour
     // 씬이 로드된 후 호출되는 메서드
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (isFirstScene)
+        // 마지막 씬인지 확인
+        if (IsLastScene(scene))
+        {
+            // 마지막 씬에서는 음악 재생을 멈춤
+            StopMusic();
+            Debug.Log($"마지막 씬 로드: {scene.name}, 음악 정지");
+        }
+        else if (isFirstScene)
         {
             // 첫 번째 씬 이후에는 플래그를 false로 설정
             isFirstScene = false;
@@ -76,5 +83,25 @@ public class MusicManager : MonoBehaviour
         {
             Debug.LogWarning("AudioSource가 설정되지 않았습니다!");
         }
+    }
+
+    // 음악 재생을 멈추는 메서드
+    private void StopMusic()
+    {
+        if (audioSource != null && audioSource.isPlaying)
+        {
+            audioSource.Stop();
+            Debug.Log("오디오 재생 멈춤.");
+        }
+    }
+
+    // 현재 씬이 마지막 씬인지 확인하는 메서드
+    private bool IsLastScene(Scene scene)
+    {
+        // 마지막 씬은 빌드 세팅에 등록된 씬 개수 - 1의 인덱스를 가집니다.
+        int lastSceneIndex = SceneManager.sceneCountInBuildSettings - 1;
+
+        // 현재 씬의 빌드 인덱스와 마지막 씬 인덱스를 비교
+        return scene.buildIndex == lastSceneIndex;
     }
 }

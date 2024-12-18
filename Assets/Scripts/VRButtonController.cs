@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class VRButtonController : MonoBehaviour
 {
-    public infoPanelController infoPanelController; // 스토리 패널 관리 스크립트 참조
+    public kingsSpeechController infoPanelController; // 스토리 패널 관리 스크립트 참조
 
     void Update()
     {

@@ -1,0 +1,537 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7867033031512089498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389616178199931206}
+  m_Layer: 0
+  m_Name: WoldoGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389616178199931206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7867033031512089498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3953582818017374463}
+  - {fileID: 6708778045592710191}
+  - {fileID: 4895744002317403846}
+  - {fileID: 5808361331954667335}
+  - {fileID: 5947312858293095453}
+  - {fileID: 2534503442296041042}
+  - {fileID: 3192731403274051215}
+  - {fileID: 358876869629612123}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2677354025262717927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &5808361331954667335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 2677354025262717927}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2825365686314244285
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &5947312858293095453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 2825365686314244285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2929293048779438223
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &6708778045592710191 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 2929293048779438223}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3912928429143102054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &4895744002317403846 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 3912928429143102054}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4855263267829425247
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &3953582818017374463 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 4855263267829425247}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6237753645894843122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &2534503442296041042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 6237753645894843122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6481369103504804399
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &3192731403274051215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 6481369103504804399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8162301582115489019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 389616178199931206}
+    m_Modifications:
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9148919960318938650, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+      propertyPath: m_Name
+      value: Solider_Woldo (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+--- !u!4 &358876869629612123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8483847763836720288, guid: 055da5f7d3598ab4899b87736244160a, type: 3}
+  m_PrefabInstance: {fileID: 8162301582115489019}
+  m_PrefabAsset: {fileID: 0}
